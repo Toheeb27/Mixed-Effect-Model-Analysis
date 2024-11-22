@@ -1,1 +1,2 @@
-# 
+This study uses a mixed-effects modeling approach to analyze sleepstudy dataset from the lme4 library, the impact of sleep deprivation on psychomotor performance was examined as the main research question. The model is suitable beacuse it considers the fixed and random effects, the results provide insights into subject-specific variations and provide a
+comprehensive understanding of psychomotor performance dynamics over time. The data exploration and descriptive analysis of the dataset was also examined to get the key detailed information of the study.

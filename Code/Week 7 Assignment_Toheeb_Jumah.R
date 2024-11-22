@@ -174,7 +174,7 @@ summary(model_sleepstudy)
 
 #Random Effect (Subject): The random effect (REML estimate) shows how much individual variability affects reaction time, independent of the number of "days of sleep deprivation".
 
-#The model estimated baseline for the average reaction time 247.702 ms for the Day 3, which is our reference level and for each additional day of sleep deprivation, there is an estimated to increase in reaction time of about 11.063 milliseconds.
+#The model estimated baseline for the average reaction time is 247.702 ms for the Day 3, which is our reference level and for each additional day of sleep deprivation, there is an estimated increase in reaction time of about 11.063 milliseconds.
 
 #########################
 ###5. Residual Analysis##

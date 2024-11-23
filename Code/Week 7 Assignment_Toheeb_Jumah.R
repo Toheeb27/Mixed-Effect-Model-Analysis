@@ -185,6 +185,9 @@ summary(model_sleepstudy)
 #computing the residual values from the model
 res <- residuals(model_sleepstudy)
 
+#A Plot of the residuals to check if the model fit
+plot(residuals(model_sleepstudy), main = "Residuals of Model")
+
 #Checking for normality of the residuals to observe if our model has not violated the assumption
 par(mfrow = c(1, 2))
 hist(res)

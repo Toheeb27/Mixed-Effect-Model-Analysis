@@ -146,6 +146,14 @@ avg_reaction %>% ggplot(aes(x = Days, y = avg_reaction)) +
   labs(title = " Line Plot Average Reaction Times by Days",
        x = "Days", y = "Average Reaction Time (ms)")
 
+#A line plot to better demonstrate the increasing or decreasing characteristics of reaction times across different days throughout the study for each subject
+sleepstudy %>% ggplot(aes(x = Days, y = Reaction, group = Subject)) +
+  geom_line(aes(color = Subject)) +  
+  geom_point(aes(color = Subject)) +  
+  labs(title = "Line Plot Reaction Times for each Subject",
+       x = "Days", y = "Reaction Time (ms)") +
+  facet_wrap(~ Subject)
+
 #A density plot of reaction time of the participant for each day
 sleepstudy %>%ggplot(aes(x = Reaction, fill = as.factor(Days))) +
   geom_density(alpha = 0.3) +
